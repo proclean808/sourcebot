@@ -1,0 +1,22 @@
+{
+  "schema_version": 1,
+  "source": "proclean808/Baseline/intake/2026-11-14/manifest.json",
+  "bucket": "discovery-index",
+  "upstream_candidates": [
+    "Pomerado",
+    "AgentMux",
+    "Autofish",
+    "PocketDaemon"
+  ],
+  "capability_contract": "Index upstream provenance and existing internal capabilities; do not treat search results as installed code",
+  "stage": "queued-for-engineering",
+  "requires": [
+    "license-review",
+    "duplicate-detection",
+    "adapter-design",
+    "contract-tests",
+    "evidence-receipt",
+    "protected-promotion"
+  ],
+  "auto_merge": false
+}
